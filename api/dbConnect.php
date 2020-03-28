@@ -3,7 +3,7 @@
 	//Defining Constants
 	define('HOST','vlvlnl1grfzh34vj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com');
 	define('USER','ckxg7ecz3m1nnb9k');
-	define('PASS','	myz2kwaqvr01pyc4');
+	define('PASS','myz2kwaqvr01pyc4');
 	define('DB','d5epwpe7jtk4oahw');
 
 	//Connecting to Database
