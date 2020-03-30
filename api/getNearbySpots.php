@@ -1,6 +1,6 @@
 <?php 
  
- date_default_timezone_set("Asia/Kazakhstan");
+ date_default_timezone_set("Asia/Almaty");
  //Getting the requested
 
  $lat = $_GET['lat'];
