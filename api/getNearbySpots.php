@@ -42,7 +42,7 @@
 	 	"lat"=>$row['lat'],
 		"lng"=>$row['lng'],
 		"location"=>$row['location'],
-		"loccity"=>$row['cuisines'],
+		"loccity"=>$row['loccity'],
 		"priceLevel"=>$row['priceLevel'],
 		"cost"=>$row['cost'],
 		"openStatus"=>$row['openStatus'],
