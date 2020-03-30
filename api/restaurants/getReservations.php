@@ -1,6 +1,6 @@
 <?php 
  
- date_default_timezone_set("Asia/Kolkata");
+ date_default_timezone_set('Asia/Almaty');
  //Getting the requested
 
  $spotId = $_GET['spotId'];
