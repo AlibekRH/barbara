@@ -5,7 +5,7 @@
 
  $lat = $_GET['lat'];
  $lng = $_GET['lng'];
- $radius = 100;
+ $radius = 1000;
  
  //Importing database
  require_once('dbConnect.php');
