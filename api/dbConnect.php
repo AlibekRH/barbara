@@ -1,10 +1,10 @@
 <?php
 
 	//Defining Constants
-	define('HOST','vlvlnl1grfzh34vj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com');
-	define('USER','ckxg7ecz3m1nnb9k');
-	define('PASS','myz2kwaqvr01pyc4');
-	define('DB','d5epwpe7jtk4oahw');
+	define('HOST','dz8959rne9lumkkw.chr7pe7iynqr.eu-west-1.rds.amazonaws.com');
+	define('USER','v5evhnv9cy2wsk17');
+	define('PASS','fozm13wrfguhbb1p');
+	define('DB','hp0ouafyqi4rqyrx');
 
 	//Connecting to Database
     $con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Reach our Servers!');
