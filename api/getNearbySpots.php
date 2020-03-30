@@ -5,13 +5,13 @@
 
  $lat = $_GET['lat'];
  $lng = $_GET['lng'];
- $radius = 10000;
+ $radius = 100;
  
  //Importing database
  require_once('dbConnect.php');
  
  //Creating sql query with where clause to get an specific employee
- $sql="SELECT *, (3959 * acos(cos(radians('".$lat."')) * cos(radians(lat)) * cos( radians(lng) - radians('".$lng."')) + sin(radians('".$lat."')) * sin(radians(lat)))) AS distance FROM `spots` HAVING distance < 10 ORDER BY distance";
+ $sql="SELECT *, (3959 * acos(cos(radians('".$lat."')) * cos(radians(lat)) * cos( radians(lng) - radians('".$lng."')) + sin(radians('".$lat."')) * sin(radians(lat)))) AS distance FROM `spots` HAVING distance < 100 ORDER BY distance";
 
  //getting result 
  $r = mysqli_query($con,$sql);
